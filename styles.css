@@ -14,13 +14,35 @@ h1
   font-size: 250%;
 }
 
-h2{
+h2
+{
   color: hsl(240, 70%, 40%);
   margin-top: 0;
   margin-bottom: 0;
   font-family: Roboto;
   font-weight: 100;
   font-size: 200%;
+}
+
+h3
+{
+  color: hsl(240, 70%, 40%);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 150%;
+}
+
+h4
+{
+  color: hsl(240, 70%, 40%);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 250%;
+  text-align: center;
 }
 
 p
@@ -31,6 +53,43 @@ p
   margin-bottom: 0;
   margin-left: 5%;
   font-size: 150%;
+}
+
+.menu
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(240, 20%, 20%);
+  color: hsl(240, 50%, 90%);
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 150%;
+}
+
+.menu li
+{
+  float: left
+}
+
+.menu a
+{
+  color: hsl(240, 50%, 90%);
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu a:hover
+{
+  background-color: hsl(240, 20%, 40%);
+}
+
+.menu a:focus
+{
+  background-color: hsl(240, 30%, 50%);
 }
 
 .title_box
@@ -68,6 +127,40 @@ p
   margin-bottom: 5%;
   width: 80%;
 }
+
+.insightsmenu
+{
+  margin: auto;
+  width: 80%;
+  color: hsl(240, 20%, 40%);
+  font-family: Roboto;
+  font-weight: 300;
+  margin-bottom: 0;
+  /* margin-left: 5%; */
+  font-size: 100%;
+}
+
+.insights
+{
+  margin: auto;
+  width: 90%;
+  color: hsl(240, 20%, 40%);
+  font-family: Roboto;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-left: 5%;
+  font-size: 100%;
+}
+
+/* ul
+{
+  color: hsl(240, 20%, 40%);
+  font-family: Roboto;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-left: 5%;
+  font-size: 100%;
+} */
 
 .table
 {
