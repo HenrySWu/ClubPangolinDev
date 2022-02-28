@@ -1,3 +1,8 @@
+html
+{
+  scroll-behavior: smooth;
+}
+
 body
 {
   background-color: hsl(240, 5%, 100%);
@@ -6,12 +11,13 @@ body
 
 h1
 {
-  color: hsl(240, 70%, 40%);
+  color: hsl(240, 70%, 30%);
   margin-top: 0;
   margin-bottom: 0;
   font-family: Roboto;
   font-weight: 100;
-  font-size: 250%;
+  font-size: 350%;
+  text-align: center;
 }
 
 h2
@@ -21,7 +27,7 @@ h2
   margin-bottom: 0;
   font-family: Roboto;
   font-weight: 100;
-  font-size: 200%;
+  font-size: 250%;
 }
 
 h3
@@ -31,7 +37,7 @@ h3
   margin-bottom: 0;
   font-family: Roboto;
   font-weight: 100;
-  font-size: 150%;
+  font-size: 200%;
 }
 
 h4
@@ -41,8 +47,7 @@ h4
   margin-bottom: 0;
   font-family: Roboto;
   font-weight: 100;
-  font-size: 250%;
-  text-align: center;
+  font-size: 150%;
 }
 
 p
@@ -96,7 +101,7 @@ p
 {
   margin: auto;
   margin-top: 0;
-  margin-bottom: 5%;
+  margin-bottom: 0;
   background-image: url("images/pangolin_on_tail.webp");
   /* image source: https://www.npr.org/sections/thetwo-way/2016/09/28/495778859/pangolins-the-artichoke-with-legs-earn-top-trade-protection */
   background-position: center; 
@@ -128,20 +133,39 @@ p
   width: 80%;
 }
 
+.page_section_a
+{
+  margin: auto;
+  margin-bottom: 2%;
+  width: 80%;
+}
+
 .page_section_s
 {
   margin: auto;
   width: 80%;
 }
 
-.insightsmenu
+.navigation_menu
 {
   margin: auto;
   width: 80%;
   color: hsl(240, 20%, 40%);
   font-family: Roboto;
   font-weight: 300;
-  margin-bottom: 0;
+  margin-bottom: 5%;
+  /* margin-left: 5%; */
+  font-size: 100%;
+}
+
+.insights_menu
+{
+  margin: auto;
+  width: 80%;
+  color: hsl(240, 20%, 40%);
+  font-family: Roboto;
+  font-weight: 300;
+  margin-bottom: 5%;
   /* margin-left: 5%; */
   font-size: 100%;
 }
