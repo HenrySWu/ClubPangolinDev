@@ -146,6 +146,32 @@ p
   width: 80%;
 }
 
+.page_section_left
+{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.page_section_right
+{
+  margin-left: 50%;
+  text-align: center;
+}
+
+.wireframe_left
+{
+  width: 68%;
+  float: left;
+}
+
+.wireframe_right
+{
+  margin-left: 70%;
+  margin-top: 10;
+  text-align: center;
+}
+
 .navigation_menu
 {
   margin: auto;
